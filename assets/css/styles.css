@@ -2,6 +2,9 @@ body {
   background: rgb(209, 206, 206);
   ;
 }
+#p-{
+  padding: 12px;
+}
 #imgsel{
   border: rgb(24, 129, 94) 2px solid;
   padding: 12px;
@@ -13,10 +16,15 @@ body {
   background-color: white;
   margin-top: 10px;
   text-align: right;
+  font-weight: bold;
+  font-size: medium;
+
 }
 
 .navbar-brand {
-  background-color: aquamarine;
+  background-color:rgb(24, 129, 94);
+  font-weight: bold;
+  color: white;
 }
 
 .navi.scrolled {
@@ -29,10 +37,11 @@ body {
   list-style: none;
 }
 tbody>tr>th {color:transparent}
-h4 {
+h4, h1 {
   color: rgb(24, 129, 94);
   font-size: 22px;
   margin-top: 4px;
+  font-weight: bold;
 }
 
 .box1 {
@@ -85,10 +94,7 @@ th, td {
   text-transform: capitalize;
   text-align: center;
 }
-.cell-highlight {
-  background-color: gold;
-  font-weight: bold;
-}
+
 
 tbody tr:nth-child(odd) {
   background-color: #fff;
@@ -116,7 +122,6 @@ thead {
 }
 .divbtm {
   width:100%;
-  /* position:absolute; */
   bottom:0;
   background-color: gray;
   z-index:0;
