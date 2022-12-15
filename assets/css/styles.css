@@ -2,6 +2,10 @@ body {
   background: rgb(209, 206, 206);
   ;
 }
+img {
+  max-width: 100%;
+  height: auto
+}
 #p-{
   padding: 12px;
 }
@@ -142,7 +146,7 @@ thead {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .navbar li {
     padding: 10px;
   }
@@ -157,6 +161,9 @@ thead {
   }
 
   .selector {
+    visibility: visible;
+  }
+  #nav-select {
     visibility: visible;
   }
 }
